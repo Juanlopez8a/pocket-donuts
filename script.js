@@ -10,7 +10,7 @@ function miFuncion(){
     let distancia_vainilla;
     let distancia_oreo
     let distancia_homero;
-    console.log('Archivo Javascript');
+
     distancia_chocolate = window.innerHeight - chocolate.getBoundingClientRect().top;
     distancia_vainilla = window.innerHeight - vainilla.getBoundingClientRect().top;
     distancia_oreo = window.innerHeight - oreo.getBoundingClientRect().top;
