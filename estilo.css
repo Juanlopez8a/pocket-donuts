@@ -1,0 +1,62 @@
+section{
+    height: 70vh;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+#inicio{
+    background-color: darkorchid;
+    color: aliceblue;
+    height: 100vh;
+}
+section h1{
+    font-size: 70px;
+}
+section img{
+    width: 350px;
+    margin: 0 50px;
+}
+section .info{
+    width: 600px;
+    margin: 0 50px;
+    font-family: Montserrat;
+}
+.chocolate{
+    position: relative;
+    left: -50px;
+    opacity: 0;
+}
+.efecto-chocolate{
+    left: 0px;
+    opacity: 1;
+    transition: 1s linear;
+}
+.vainilla{
+    transform: scale(0.5);
+    opacity: 0;
+}
+.efecto-vainilla{
+    transform: scale(1);
+    opacity: 1;
+}
+.oreo{
+    position: relative;
+    bottom: -80px;
+    opacity: 0;
+}
+ .oreo-efecto{
+    opacity: 1;
+    bottom: 0;
+    transition: 1s linear;
+ }
+ .homero{
+    transform: scale(.5);
+    opacity: 0;
+ }
+ .homero-efecto{
+     transform: scale(1);
+     opacity: 1;
+     transition: 1s linear;
+ }
